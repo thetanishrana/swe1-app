@@ -14,6 +14,10 @@ env/
 venv/
 .venv/
 
+# Environment Variables
+.env
+*.env
+
 # Local database
 db.sqlite3
 

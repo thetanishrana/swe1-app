@@ -1,0 +1,24 @@
+language: python
+python:
+  - "3.9.12"
+  
+env:
+  - DJANGO_SETTINGS_MODULE=djangotutorial.settings
+
+before_install:
+  - export DJANGO_SECRET_KEY='test-secret-key-for-ci'
+
+install:
+  - pip install -r requirements.txt
+
+before_script:
+  - python manage.py migrate --noinput
+
+script:
+  - black --check .
+  - flake8 .
+  - coverage run --source='.' manage.py test
+  - coverage report
+
+after_success:
+  - coveralls
