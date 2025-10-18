@@ -1,7 +1,7 @@
 # SWE1 App
 
 [![Build Status](https://app.travis-ci.com/thetanishrana/swe1-app.svg?branch=main)](https://app.travis-ci.com/thetanishrana/swe1-app)
-[![Coverage Status](https://coveralls.io/repos/github/thetanishrana/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/thetanishrana/swe1-app?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/thetanishrana/swe1-app/badge.svg?branch=main&t=2)](https://coveralls.io/github/thetanishrana/swe1-app?branch=main)
 
 Django polls application with CI/CD pipeline.
 
@@ -10,5 +10,4 @@ Django polls application with CI/CD pipeline.
 - Code coverage with Coveralls (82%)
 - Automated testing
 - Code quality checks with Black and Flake8
-- Auto-deployment to AWS Elastic Beanstalk# Update main branch coverage
-# Trigger main branch coverage
+- Auto-deployment to AWS Elastic Beanstalk
