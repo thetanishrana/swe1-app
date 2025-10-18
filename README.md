@@ -11,3 +11,4 @@ Django polls application with CI/CD pipeline.
 - Automated testing
 - Code quality checks with Black and Flake8
 - Auto-deployment to AWS Elastic Beanstalk# Update main branch coverage
+# Trigger main branch coverage
