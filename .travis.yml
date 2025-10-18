@@ -6,7 +6,7 @@ env:
   - DJANGO_SETTINGS_MODULE=mysite.settings
 
 before_install:
-  - export DJANGO_SECRET_KEY='test-secret-key-for-ci'
+  - export DJANGO_SECRET_KEY=os.getenv("SECRET_KEY")
 
 install:
   - pip install -r requirements.txt
