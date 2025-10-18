@@ -4,3 +4,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/thetanishrana/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/thetanishrana/swe1-app?branch=main)
 
 Django polls application with CI/CD pipeline.
+
+## Features
+- Continuous Integration with Travis CI
+- Code coverage with Coveralls
+- Automated testing
+- Code quality checks with Black and Flake8
